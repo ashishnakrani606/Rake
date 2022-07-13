@@ -1,0 +1,12 @@
+.header{
+    background: #072537;
+    padding: 12px 0px;
+    text-align: center;
+}
+.header a{
+   display: inline-block;
+}
+.header img{
+    width: 131px;
+    display: inline;
+}

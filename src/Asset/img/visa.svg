@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="40" viewBox="0 0 100 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="100" height="40" transform="translate(970 1315)" fill="#e6e6e6"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-970 -1315)" clip-path="url(#clip-path)">
+    <g id="visa" transform="translate(970 1322)">
+      <g id="形状_1_3_" transform="translate(8.74 0)">
+        <g id="形状_1">
+          <g id="Group_8" data-name="Group 8">
+            <path id="Path_23" data-name="Path 23" d="M49.378,49.755l-5.09,25.023h8.143l5.09-25.023H49.378Zm-11.941,0-7.764,17.21-.918-3.706h0l-.2-.831A22.049,22.049,0,0,0,21.328,55.1,33.816,33.816,0,0,0,17.705,53.1l7.056,21.68h8.484L46.2,49.755H37.437ZM69.217,56.7c0-2.829,7.93-2.466,11.415-.929L81.794,50.4a28.67,28.67,0,0,0-7.324-1.091c-4.041,0-13.637,1.414-13.637,8.284,0,6.465,11.263,6.546,11.263,9.94s-10.1,2.788-13.436.647L57.449,73.8a27.675,27.675,0,0,0,9.193,1.414c5.556,0,13.941-2.3,13.941-8.567C80.582,60.137,69.217,59.531,69.217,56.7Zm33.229-6.947H95.9c-3.023,0-3.759,1.865-3.759,1.865L80,74.778h8.487l1.7-3.717h10.352l.955,3.717h7.477ZM92.528,65.927l4.279-9.364,2.407,9.364Z" transform="translate(-17.705 -49.308)" fill="#e6e6e6" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+      <g id="形状_1_2_" transform="translate(0 0.545)">
+        <g id="形状_1_1_">
+          <g id="Group_9" data-name="Group 9">
+            <path id="Path_24" data-name="Path 24" d="M23.942,52.418s-.337-2.258-3.935-2.258H6.934l-.153.424a36.628,36.628,0,0,1,12.313,4.864,20.078,20.078,0,0,1,7.641,8.244Z" transform="translate(-6.781 -50.16)" fill="#e6e6e6" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

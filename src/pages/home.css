@@ -1,0 +1,434 @@
+
+/* carousel-section Start */
+.carousel-section .carousel .thumbs-wrapper.axis-vertical{
+    display: none;
+}
+.carousel-section .carousel .control-prev.control-arrow,
+.carousel-section .carousel .control-next.control-arrow{
+    display: none;
+}
+.carousel-section .carousel .control-prev.control-arrow:hover,
+.carousel-section .carousel .control-next.control-arrow:hover{
+    opacity: 0.8;
+}
+.carousel-section .carousel .control-prev.control-arrow:focus,
+.carousel-section .carousel .control-next.control-arrow:focus{
+    opacity: 0.6;
+}
+.carousel.carousel-slider .control-arrow:hover{
+    background: transparent;
+}
+.carousel-section ul.control-dots {
+    padding: 20px 0px;
+    margin: 0;
+}
+body .carousel-section ul.control-dots li.dot {
+    background: #8CA3B8 !important;
+    height: 10px;
+    margin: 0 5px;
+    width: 10px;
+    opacity: 1;
+}
+body .carousel-section ul.control-dots li.dot.selected {
+    background: #072537 !important;
+    opacity: 1;
+}   
+body .carousel-section .carousel .carousel-status{
+    display: none;
+}
+.carousel .control-prev.control-arrow{
+    left: 50px;
+    opacity: 1;
+}
+.carousel .control-next.control-arrow {
+    right: 50px;
+    opacity: 1;
+}
+.carousel .slide img.mobile-img {
+    display: none;
+}
+/* carousel-section end */
+
+/* blog-section Start */
+.blog-section{
+ padding: 100px 0px;
+}
+.blog-section .blog-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.blog-section .blog-main .blog-title img {
+    max-width: 30px;
+}
+.blog-section .blog-main .blog-title p {
+    color: #E6E6E6;
+    font-size: 18px;
+    padding-left: 15px;
+    margin: 0;
+    font-weight: 700;
+}
+.blog-section .blog-main {
+    max-width: 48.8%;
+    display: inline-block;  
+}
+.blog-section .blog-main .blog-title {
+    display: flex;
+    align-items: center;
+}
+.blog-section .blog-main .blog-img img {
+    border-top: 10px solid #072537;
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+}
+.blog-section .blog-content {
+    padding: 30px;
+    background: #010E17;
+}
+.blog-section .blog-content h5{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E6E6E6;
+}
+.blog-section .blog-content p{
+    margin: 15px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8CA3B8;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 100%;
+    min-height: 109px;
+}
+.rate-btn{
+    border-radius: 16px;
+    background-color: #072537;
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E6E6E6;
+    cursor: pointer;
+    border: none;
+    margin-top: 22px;
+    transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.rate-btn:hover{
+    background: rgb(7 37 55 / 80%);
+}
+.rate-btn:focus{
+    background: rgb(7 37 55 / 60%);
+}
+.blog-section .blog-main:nth-child(odd) {
+    margin-right: 15px;
+}
+.blog-section .blog-main:nth-child(even) {
+    margin-left: 15px;
+}
+/* blog-section end */
+
+/* payment-section start */
+.payment-section {
+    background: #072537;
+}
+.payment-section .payment-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.payment-section .payment-wrapper .payment-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #E6E6E6;
+    font-weight: 400;
+}
+.payment-section .payment-wrapper .payment-way a {
+    display: inline-block;
+    padding: 0px 15px;
+}
+/* payment-section end */
+
+/* get-the-game section start */
+.get-the-game{
+    background: url("./../Asset/img/smoke_img.png");
+    padding: 100px 0px;
+    background-position: bottom;
+}
+.get-the-game .get-the-game-text {
+    width: 46%;
+}
+.get-the-game .get-the-game-text .game-title p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #8CA3B8;
+    margin: 0;
+}
+.get-the-game .get-the-game-text .game-title h4 {
+    color: #E6E6E6;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.get-the-game .get-the-game-text .the-gam-items {
+    margin-top: 40px;
+}
+.get-the-game .get-the-game-text .the-gam-items h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E6E6E6;
+    margin: 15px 0px 0px;
+}
+.get-the-game .get-the-game-text .the-gam-items p {
+    font-size: 16px;
+    color: #8CA3B8;
+    margin: 0;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.get-the-game .get-the-game-wrapper {
+    display: flex;
+    align-items: center;
+}
+.get-the-game .get-the-game-wrapper .the-game {
+    margin: 0;
+    display: inline-block;
+    width: 54%;
+    text-align: center;
+}
+.get-the-game .get-the-game-wrapper .the-game img {
+    width: 85%;
+    margin: auto;
+}
+.get-the-game .get-the-game-text button.rate-btn {
+    margin-top: 30px;
+}
+/* get-the-game section end*/
+
+/* partner start */
+.partner {
+    background: #072537;
+    padding: 100px 0px;
+}
+.partner .partner-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner .partner-wrapper a {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 10px 0px;
+}
+/* partner end*/
+
+@media (min-width:1200px) and (max-width:1339px) {
+    .blog-section .blog-main {
+        max-width: 48.5%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .blog-section .blog-main {
+        max-width: 48%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .blog-section,
+    .get-the-game,
+    .partner,
+    .footer {
+        padding: 50px 0px;
+    }
+    .blog-section .blog-main{
+        width: 100%;
+        max-width: 100%;
+    }
+    .payment-section .payment-wrapper {
+        height: auto;
+        flex-flow: wrap;
+        padding: 50px 0px;
+    }
+    .payment-section .payment-wrapper .payment-text {
+        width: 25%;
+    }
+    .payment-section .payment-wrapper .payment-way {
+        width: 75%;
+    }
+    .payment-section .payment-wrapper .payment-way a {
+        padding: 0px 0px;
+    }
+    .payment-section .payment-wrapper .payment-way a img {
+        width: 80%;
+    }
+    .get-the-game .get-the-game-wrapper {
+        flex-flow: wrap;
+    } 
+    .get-the-game .get-the-game-wrapper .get-the-game-text {
+        width: 100%;
+    }
+    .get-the-game .get-the-game-wrapper .the-game {
+        width: 100%;
+        padding-top: 70px;
+    }
+    .partner .partner-wrapper a img {
+        width: 75%;
+    }
+    .blog-section .blog-main:nth-child(odd),
+    .blog-section .blog-main:nth-child(even){
+        margin: 0;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .carousel .slide img.mobile-img {
+        display: block;
+    }
+    .carousel .slide img.destop-img {
+        display: none;
+    } 
+    .header img{
+        width: 92px;
+    }
+    .header a{
+        display: inline-block;
+    }
+    .carousel .control-next.control-arrow{
+        right: 20px;
+    }
+    .carousel .control-prev.control-arrow{
+        left: 20px;
+    }
+    .carousel-section .carousel .control-next.control-arrow:before,
+    .carousel-section .carousel .control-prev.control-arrow:before{
+        height: 20px;
+        width: 20px;
+        background-size: 20px !important;
+    }
+    body .carousel-section ul.control-dots li.dot{
+        display: none;
+    }
+    .carousel-section .carousel .slide{
+        min-height: 221px;
+    }
+    .blog-section {
+        padding: 24px 0px 50px 0px;
+    }
+    .blog-section .blog-main:nth-child(odd),
+    .blog-section .blog-main:nth-child(even){
+        margin: 0;
+    }
+    .blog-section .blog-main{
+        max-width: 100%;
+    }
+    .blog-section .blog-main .blog-img {
+        margin: 0px -20px;
+    }
+    .blog-section .blog-content{
+        padding: 30px 0px;
+    }
+    .blog-section .blog-content h5,
+    .blog-section .blog-main .blog-title p,
+    .get-the-game .get-the-game-text .game-title p{
+        font-size: 17px;
+    }
+    .get-the-game .get-the-game-text .game-title h4{
+        font-size: 18px;
+    }
+    .blog-section .blog-content p{
+        font-size: 15px;
+        display: block;
+    }
+    .rate-btn{
+        font-size: 15px;
+    }
+    .blog-section .blog-main .blog-img img{
+        margin-top: 25px;
+    }
+    .blog-section .blog-main:nth-child(even) {
+        margin-top: 60px;
+    }
+    .payment-section .payment-wrapper{
+        height: auto;
+    }
+    .payment-section .payment-wrapper{
+        display: block;
+    }
+    .payment-section .payment-wrapper .payment-way {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        padding: 10px 0px 0px 0px;
+    }
+    .payment-section {
+        padding: 30px 0px 20px 0px;
+    }
+    .payment-section .payment-wrapper .payment-text p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .payment-section .payment-wrapper .payment-way a{
+        display: block;
+        width: 33.33%;
+        padding: 10px 0px;
+    }
+    .payment-section .payment-wrapper .payment-way a img{
+        width: 77%;
+    }
+    .get-the-game{
+        padding: 50px 0px 0px 0px;
+        background-position: unset;
+        background-repeat: no-repeat;
+    }
+    .get-the-game .get-the-game-wrapper{
+        display: block;
+    }
+    .get-the-game .get-the-game-text{
+        width: 100%;
+    }
+    .get-the-game .get-the-game-wrapper .the-game{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .get-the-game .get-the-game-text .the-gam-items img {
+        width: 48px;
+    }
+    .get-the-game .get-the-game-text .the-gam-items{
+        margin-top: 27px;
+    }
+    .get-the-game .get-the-game-text .the-gam-items p{
+        font-size: 15px;
+    }
+    .get-the-game .get-the-game-text button.rate-btn {
+        display: none;
+    }
+    .partner{
+        padding: 50px 0px;
+    }
+    .partner .partner-wrapper a{
+        display: block;
+        width: 33.33%;
+    }
+    .partner .partner-wrapper a img{
+        width: 80%;
+    }
+    .get-the-game .get-the-game-text .the-gam-items h5{
+        font-size: 17px;
+    }
+    .get-the-game .get-the-game-wrapper .the-game img{
+        width: 100%;
+    }
+}
